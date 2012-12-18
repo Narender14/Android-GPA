@@ -1,10 +1,9 @@
-
 Android-GPA Calculator :
 ========================
 
-This Apps is designed and developed for students. Students can calculate the gpa and can store the gpa semester wise along with
-course name, credit and gpa and can see the result semester wise whenever required.
-It has option of SELECT and DISPLAY grade.
+This Apps is designed and developed for students.  It has option of CALCULATE and DISPLAY. CALCULATE option calculate 
+the GPA and can store the calculated GPA semester wise along with course name and credit. Display option display the 
+store result i.e., course name, credit and GPA result semester wise.
 
 ![ScreenShot](https://raw.github.com/Narender14/Android-GPA/master/GPA 2.png)   
 
