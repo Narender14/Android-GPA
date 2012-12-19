@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TableRow>
+       
+       <Spinner 
+		android:id="@+id/Spinner11" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		
+   	 	android:background="@drawable/sem"
+   	 	android:gravity="right"
+   	 />
+       
+   </TableRow>
+       
+       
+       
+       
+       
+    
+    
+    
+    <TableRow
+          android:layout_marginTop="7dp"
+        >
+        
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+             android:layout_marginLeft="40dp"
+            />
+        
+         <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credits"
+             android:layout_marginLeft="40dp"
+            />
+        
+         <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grades"
+             android:layout_marginLeft="40dp"
+            />
+        
+    </TableRow>
+    
+    
+   <TableRow
+        android:layout_marginTop="5dp"
+    
+        >
+    
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        />
+    
+    
+    
+    <Spinner 
+		android:id="@+id/Spinner02" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/credit"
+   	 	android:gravity="right"
+   	 	 />
+        
+        
+     <Spinner 
+		android:id="@+id/Spinner01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/grade"
+   	 	android:gravity="right"
+   	 />
+    
+    
+    
+    
+    </TableRow>
+    
+   
+   
+    <TableRow
+        android:layout_marginTop="10dp"
+    
+        >
+    
+    <EditText
+         android:id="@+id/edit2"
+        android:layout_width="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        />
+    
+    
+    
+    <Spinner 
+		android:id="@+id/Spinner03" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/credit"
+   	 	android:gravity="right"
+   	 	 />
+        
+        
+     <Spinner 
+		android:id="@+id/Spinner04" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/grade"
+   	 	android:gravity="right"
+   	 />
+    
+    
+    
+    
+    </TableRow>
+   
+   
+    <TableRow
+        android:layout_marginTop="10dp"
+    
+        >
+    
+    <EditText
+         android:id="@+id/edit3"
+        android:layout_width="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        />
+    
+    
+    
+    <Spinner 
+		android:id="@+id/Spinner05" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/credit"
+   	 	android:gravity="right"
+   	 	 />
+        
+        
+     <Spinner 
+		android:id="@+id/Spinner06" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/grade"
+   	 	android:gravity="right"
+   	 />
+    
+    
+    
+    
+    </TableRow>
+    
+    
+    
+    
+     <TableRow
+        android:layout_marginTop="10dp"
+    
+        >
+    
+    <EditText
+         android:id="@+id/edit4"
+       android:layout_width="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        />
+    
+    
+    
+    <Spinner 
+		android:id="@+id/Spinner07" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/credit"
+   	 	android:gravity="right"
+   	 	 />
+        
+        
+     <Spinner 
+		android:id="@+id/Spinner08" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/grade"
+   	 	android:gravity="right"
+   	 />
+    
+    </TableRow>
+    
+    
+    
+     <TableRow
+        android:layout_marginTop="10dp"
+    
+        >
+    
+    <EditText
+         android:id="@+id/edit5"
+      android:layout_width="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        />
+    
+    
+    
+    <Spinner 
+		android:id="@+id/Spinner09" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/credit"
+   	 	android:gravity="right"
+   	 	 />
+        
+        
+     <Spinner 
+		android:id="@+id/Spinner10" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:drawSelectorOnTop = "true"
+   		android:layout_marginLeft="30dp"
+   	 	android:background="@drawable/grade"
+   	 	android:gravity="right"
+   	 />
+    
+  </TableRow>
+  
+    
+            
+     <TableRow
+         android:layout_marginTop="10dp">
+         
+     <Button 
+             android:id="@+id/button2"
+             android:layout_width="20dp"
+             android:layout_height="35dp"
+             android:text="SGPA"
+           android:onClick="onclick"
+           android:clickable="true"
+           />
+         
+         <TextView 
+             android:id="@+id/text2"
+             android:layout_marginLeft="10dp"
+             android:layout_width="30dp"
+             android:layout_height="wrap_content"
+             
+             />
+    </TableRow>  
+    
+     <TableRow
+         android:layout_marginTop="10dp"
+          android:layout_marginLeft="70dp"
+         >
+         <Button
+     	android:id="@+id/button3"
+          android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Save"
+              android:clickable="true"
+             android:onClick="onsave"
+            
+             />
+         
+        <Button
+     	android:id="@+id/button4"
+          android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Reset"
+             android:layout_marginLeft="50dp"
+             android:clickable="true"
+             android:onClick="onClick"
+            
+             />
+
+    </TableRow>
+     
+</TableLayout>
